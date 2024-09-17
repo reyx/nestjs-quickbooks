@@ -1,6 +1,6 @@
 {
   "name": "@reyx/nestjs-quickbooks",
-  "version": "9.0.9",
+  "version": "9.0.7",
   "keywords": [
     "nestjs",
     "quickbooks"
@@ -15,7 +15,7 @@
     "publish-package": "npm run build:lib && npm run copy:lib && npm publish ./dist --access public",
     "publish-package:beta": "npm run publish-package -- --tag beta --access public",
     "publish-package:dry-run": "npm run publish-package -- --dry-run",
-    "version-patch": "npm version patch && git add . && git commit -m v$(cat package.json | jq -r '.version') && git push && git push --tags && npm run publish-package"
+    "version-patch": "npm version patch && git add . && git commit -m v$(cat package.json | jq -r '.version') && git push origin HEAD --tags"
   },
   "repository": {
     "type": "git",
