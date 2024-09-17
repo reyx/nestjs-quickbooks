@@ -13,6 +13,7 @@ export * from "./modules/invoices";
 export * from "./modules/items";
 export * from "./modules/payment-methods";
 export * from "./modules/payments";
+export * from "./modules/preferences";
 export * from "./modules/purchases";
 export * from "./modules/quickbooks.module";
 export * from "./modules/store";
