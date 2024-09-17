@@ -11,6 +11,6 @@ export interface QuickBooksPreferencesResponseModel {
 export interface QuickBooksPreferencesQueryResponseModel
   extends QuickBooksResponseModel {
   QueryResponse: QuickBooksQueryResponseModel & {
-    Preferences: QuickBooksPreferences;
+    Preferences: QuickBooksPreferences[];
   };
 }
