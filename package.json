@@ -14,7 +14,8 @@
     "lint": "tslint -p tsconfig.json -c tslint.json",
     "publish-package": "npm run build:lib && npm run copy:lib && npm publish ./dist --access public",
     "publish-package:beta": "npm run publish-package -- --tag beta --access public",
-    "publish-package:dry-run": "npm run publish-package -- --dry-run"
+    "publish-package:dry-run": "npm run publish-package -- --dry-run",
+    "publish": "npm version patch && npm run build && npm run build:lib && npm run copy:lib && npm run publish-package"
   },
   "repository": {
     "type": "git",

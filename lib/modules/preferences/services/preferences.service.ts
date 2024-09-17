@@ -40,6 +40,6 @@ export class QuickBooksCompanyPreferencesService extends BaseService<
     authService: QuickBooksAuthService,
     http: HttpService
   ) {
-    super(realm, "preference", authService, http);
+    super(realm, "preferences", authService, http);
   }
 }
