@@ -1,6 +1,6 @@
 # Nest.js QuickBooks
 
-An easy way to interact with the QuickBooks API in your NestJS applications.
+An easy way to interact with the QuickBooks API in your NestJS applications .
 
 ## Features
 
