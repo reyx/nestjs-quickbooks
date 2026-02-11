@@ -15,18 +15,18 @@
     "publish-package": "npm run build:lib && npm run copy:lib && npm publish ./dist --access public",
     "publish-package:beta": "npm run publish-package -- --tag beta --access public",
     "publish-package:dry-run": "npm run publish-package -- --dry-run",
-    "version-patch": "npm version patch && git add . && git commit -m v$(cat package.json | jq -r '.version') && git push origin HEAD --tags"
+    "version-patch": "npm version patch && git push origin HEAD --tags"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Recursyve/nestjs-quickbooks.git"
+    "url": "git+https://github.com/reyx/nestjs-quickbooks.git"
   },
-  "author": "Recursyve Solutions",
+  "author": "reyx Solutions",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Recursyve/nestjs-quickbooks/issues"
+    "url": "https://github.com/reyx/nestjs-quickbooks/issues"
   },
-  "homepage": "https://github.com/Recursyve/nestjs-quickbooks#readme",
+  "homepage": "https://github.com/reyx/nestjs-quickbooks#readme",
   "directories": {
     "lib": "lib"
   },
@@ -46,7 +46,7 @@
     "@nestjs/common": "^11.1.13",
     "@nestjs/core": "^11.1.13",
     "@nestjs/platform-express": "^11.1.13",
-    "@recursyve/nestjs-redis": "^11.0.0",
+    "@reyx/nestjs-redis": "^11.0.0",
     "@types/jest": "^30.0.0",
     "@types/node": "^25.2.3",
     "dotenv": "^17.2.4",
