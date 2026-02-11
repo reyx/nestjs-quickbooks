@@ -1,6 +1,6 @@
 {
   "name": "@reyx/nestjs-quickbooks",
-  "version": "9.0.8",
+  "version": "9.0.9",
   "keywords": [
     "nestjs",
     "quickbooks"
