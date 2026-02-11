@@ -1,6 +1,7 @@
 export * from "./modules/accounts";
 export * from "./modules/attachables";
 export * from "./modules/auth";
+export * from "./modules/batch";
 export * from "./modules/bills";
 export * from "./modules/common";
 export * from "./modules/company-info";
